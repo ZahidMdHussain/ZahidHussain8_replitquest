@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+table{
+  width: 80%;
+}
+
+table,th,td{
+  border: 2px solid red;
+  border-collapse: collapse;
+}
+
+table td:nth-of-type(1){
+  width:50%;
+}
+
+tr{
+  height: 50px;
+}
+
+tr:hover{
+  background-color: #cd848f;
+}
